@@ -470,6 +470,7 @@ footer {
   justify-content: space-between;
   padding: 2%;
   background-color: #1E1F22;
+  padding-top: 48px;
 }
 
 .social-media {
