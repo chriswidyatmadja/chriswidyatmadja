@@ -1048,7 +1048,9 @@ footer {
     margin: 0;
     padding: 0;
     transition: all 0.5s ease-in-out;
-    
+    body {
+      background-color: #f4f4f4;
+    }
   }
   
   nav {
@@ -1174,6 +1176,7 @@ footer {
     margin-bottom: 25vh;
     text-shadow: 5px 10px 30px #000;
     overflow: hidden; 
+    padding-top: 4vh;
   }
   
   .portfolio hr {
