@@ -8,6 +8,8 @@ body {
   margin: 0;
   padding: 0;
   transition: all 0.5s ease-in-out;
+  opacity: 0;
+  animation: fade-in 1s ease-out 0.5s forwards;
 }
 
 nav {
@@ -22,6 +24,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 9;
+  
 }
 
 .hamburger {
@@ -105,6 +108,8 @@ nav {
   padding-top: 3%;
   background-size: cover;
   position: relative;
+  opacity: 0;
+  animation: fade-in 1s ease-out 0.5s forwards;
 
 }
 
@@ -165,7 +170,7 @@ nav {
   position: relative;
   left: -100%;
   opacity: 0;
-  animation: slide-in-right 1s ease-out 0.5s forwards, fade-in 1 ease-out 0.5s forwards;
+  animation: slide-in-right 1s ease-out 0.5s forwards, fade-in 1s ease-out 0.5s forwards;
 }
 
 /* Animasi slide in dan opacity pada elemen h3, hr, dan p dengan class "animate-right" */
