@@ -12,10 +12,3 @@ hamburger.addEventListener("click", () => {
         
 })
 
-document.body.classList.add('animate-left animate-opacity');
-
-window.addEventListener("load", showPage, false);
-
-function showPage() {
-  document.body.classList.remove('animate-left animate-opacity');
-}
