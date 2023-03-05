@@ -107,6 +107,12 @@ nav {
   position: relative;
 
 }
+ 
+.animate-left animate-opacity *,
+.animate-left animate-opacity *:before,
+.animate-left animate-opacity *:after {
+animation-play-state: paused !important;
+}
 
 .portfolio h2,
 .portfolio h3,
