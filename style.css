@@ -1267,7 +1267,7 @@ footer {
     font-weight: 500;
     /* letter-spacing: 0.1em; */
     margin-bottom: 25vh;
-    text-shadow: 5px 10px 30px #000;
+    text-shadow: 5px 5px 6px #000;
     overflow: hidden; 
     padding-top: 4vh;
   }
@@ -1292,7 +1292,7 @@ footer {
     font-weight: 500;
     -webkit-text-stroke: 0.01em rgba(255, 255, 255, 1); /* Menggunakan satuan em */
     text-stroke: 0.01em rgba(255, 255, 255, 1);
-    text-shadow: 3px 3px 25px #000;
+    text-shadow: 3px 3px 3px #000;
     overflow: hidden; 
   }
   
@@ -1306,7 +1306,7 @@ display: none;
     line-height: 1.5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: #b3b3b3;
+    color: #fff;
     padding-right: 20%;
     overflow: hidden; 
   }
