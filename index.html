@@ -222,6 +222,14 @@
 
   <script src="script.js"></script>
   <script type="text/javascript" src="vanilla-tilt.js">
+
+  document.body.classList.add('animate-left animate-opacity');
+
+window.addEventListener("load", showPage, false);
+
+function showPage() {
+  document.body.classList.remove('animate-left animate-opacity');
+}
   </script>
 </body>
 
